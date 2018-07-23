@@ -23,8 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 /* Navigation */
 
 #main-header {
@@ -32,30 +30,25 @@ body {
 }
 
 .nav-tickets {
-    border: 2px solid #04212B;
+    border: 2px solid #ffffff;
     padding: 5px 15px !important;
     padding-top: 9px !important;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
 }
 
 .nav-tickets a {
     padding-bottom: 5px !important;
-    color: #04212B !important;
 }
 
 .nav-tickets:hover {
     border-color: #149EDA;
-    -webkit-transition: border-color 2s;
-    /* Safari */
-    transition: border-color 2s;
 }
 
 .nav-tickets a:hover {
-    color: #149EDA;
-    -webkit-transition: color 2s;
-    /* Safari */
-    transition: color 2s;
+    /* Override Divi's "opacity: 0.7" property on :hover */
+    opacity: 1 !important;
 }
-
 
 /* Hide mobile menu on smartphones until we have more content*/
 
@@ -103,13 +96,13 @@ body {
 
 .content-box:before {
     content: "Themen";
-    background-color: #fff;
+    background-color: #333333;
     height: 30px;
     width: 200px;
     top: -10px;
     left: -10px;
     padding: 5px 10px;
-    color: #04212B;
+    color: #ffffff;
     position: relative;
     top: -23px;
     left: -10px;
