@@ -29,6 +29,18 @@ body {
     box-shadow: none;
 }
 
+.et_header_style_left #et-top-navigation {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media (min-width: 981px) {
+    .et_header_style_left .et-fixed-header #et-top-navigation {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 .nav-tickets {
     border: 2px solid #ffffff;
     padding: 5px 15px !important;
