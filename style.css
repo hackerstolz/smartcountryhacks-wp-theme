@@ -51,6 +51,13 @@ body {
 
 .nav-tickets a {
     padding-bottom: 5px !important;
+    color: #ffffff !important;
+}
+
+@media only screen and (min-width: 981px) {
+    .et-fixed-header #top-menu .nav-tickets a {
+        color: #ffffff !important;
+    }
 }
 
 .nav-tickets:hover {
