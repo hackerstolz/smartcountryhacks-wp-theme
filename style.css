@@ -28,6 +28,11 @@ body {
 
 #main-header {
     box-shadow: none;
+    background-color: transparent !important;
+}
+
+.et-fixed-header#main-header {
+    background-color: #333 !important;
 }
 
 .et_header_style_left #et-top-navigation {
